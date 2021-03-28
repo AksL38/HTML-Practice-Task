@@ -1,0 +1,445 @@
+<!-- ---------------------------------------------------------
+MiniTask 1: Fix the bugs in below snippet
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+--------------------------------------------------------- -->
+
+<html lang="en">
+
+<head>
+    <title>Document
+    </title>
+</head>
+
+<body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- -----------------------------------------------------
+MiniTask 2: Try the below one
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+--------------------------------------------------------- -->
+
+<html lang="en">
+
+<head>
+    <title>Document
+    </title>
+</head>
+
+<body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- ----------------------------------------------------
+MiniTask 3: Design a contact us form with all fields as required.
+--------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="fullname">Full Name</label> <br>
+        <input type="text" name="fullname" id="fullname" required> <br>
+        <label for="cutomerID">Cutomer ID</label> <br>
+        <input type="number" name="customerID" id="customerID" required><br>
+        <label for="dob">Date of Birth</label> <br>
+        <input type="date" name="dob" id="dob" required> <br>
+        <label for="email">Email address</label> <br>
+        <input type="email" name="email" id="email" required> <br>
+        <label for="contactno">Contact Number</label> <br>
+        <input type="tel" name="contactno" id="contactno" required> <br>
+        <label for="feedback">Feedback</label><br>
+        <textarea name="feedback" id="feedback" cols="30" rows="10" required></textarea> <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+
+</html>
+
+<!-- ----------------------------------------------------
+MiniTask 4: 
+    Use certain HTML elements to display the following in a HTML page.
+
+    Programming Language
+        JavaScript
+            Angular
+            React
+            Vue.js
+        Python
+            Django Framework
+            Flask Framework
+        Java
+            Spring
+            Maven
+            Hibernate
+    Database
+        MySQL
+        MongoDB
+        Cansandra
+
+---------------------------------------------------------- -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>Programming language
+            <ul style="list-style-type: circle;">
+                <li>
+                    JavaScript
+                    <ol start="1" type="a">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                    </ol>
+                </li>
+                <li>
+                    Python
+                    <ol start="1" type="a">
+                        <li>Django Framework</li>
+                        <li>Flask Framework</li>
+                    </ol>
+                </li>
+                <li>
+                    Java
+                    <ol start="1" type="a">
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Database
+            <ul style="list-style-type: circle;">
+                <li>
+                    MySQL
+                </li>
+                <li>MangoDB</li>
+                <li>Cansandra</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
+
+<!-- ------------------------------------------
+MiniTask 5: Create an element that helps you to open the https://google.com in separate new tab.
+---------------------------------------------- -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="https://google.com" target="_blank">Click here to open Google homepage in new tab</a>
+</body>
+
+</html>
+
+<!-- -------------------------------------------
+MiniTask 6: In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+------------------------------------------------ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="salaried">Salaried</label>
+        <input type="radio" name="employmentType" id="salaried">
+        <label for="selfEmployed">Self employed</label>
+        <input type="radio" name="employmentType" id="selfEmployed"> <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+
+    </form>
+</body>
+
+</html>
+
+<!-- -----------------------------------------------------
+MiniTask 7: Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+---------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <strong style="background-color: red;">Yes! I want to subscribe to MAG-O-ZINE</strong> <br>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="Joe">
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Doe"> <br>
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address" placeholder="1001 Washington Street"> <br>
+        <label for="city">City</label>
+        <input type="text" name="city" id="city" placeholder="August">
+        <label for="state">State</label>
+        <input type="text" name="state" id="state" placeholder="CA">
+        <label for="zip">Zip</label>
+        <input type="text" name="zip" id="zip" placeholder="99999"> <br>
+        Subscribe for:
+        <input type="checkbox" name="1year" id="1year" checked>
+        <label for="1year">1 year($19.95)</label>
+        <input type="checkbox" name="2year" id="2year">
+        <label for="2year">2 year($35.00)</label> <br>
+        Send me more information about: <br>
+        <input type="checkbox" name="computerzine" id="computerzine" checked>
+        <label for="computerzine">Computer-Zine</label> <br>
+        <input type="checkbox" name="fishingzine" id="fishingzine">
+        <label for="fishingzine">Fishing-Zine</label> <br>
+        <input type="checkbox" name="catozine" id="catozine" checked>
+        <label for="catozine">Cat-O-Zine</label> <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+
+</html>
+
+<!-- -----------------------------------------------------------
+MiniTask 8: Use the table tag to design given image https://www.bapugraphics.com/assets/img/port_upload_dir/table-4.jpg
+---------------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        thead,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4" style="text-align: center;"> Health Chart</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">State of health</td>
+                <td colspan="2">Fasting value</td>
+                <td>After Eating</td>
+            </tr>
+            <tr>
+                <td>Minimum</td>
+                <td>Maximum</td>
+                <td>2 hours after eating</td>
+            </tr>
+            <tr>
+                <td>healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>less than 140</td>
+            </tr>
+            <tr>
+                <td>pre-diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+
+<!-- --------------------------------------------------
+MiniTask 9: Write HTML input tags snippet to show default values for all Form elements.
+------------------------------------------------------- -->
+
+<!-- I did not understand question -->
+
+<!-- -----------------------------------------------------
+MiniTask 10: 
+    In your, HTML page add the below line and Highlight it without using any CSS.
+
+    "HTML & CSS is awesome"
+--------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptate cum voluptates accusantium adipisci
+            laboriosam?
+            Corporis, distinctio numquam architecto, excepturi cupiditate reprehenderit suscipit ratione sint,
+            <strong><u><i>HTML & CSS is awesome</i></u></strong> laborum inventore voluptatem explicabo quasi?
+        </p>
+    </div>
+</body>
+
+</html>
+
+<!-- -------------------------------------------------------------------
+MiniTask 11: Create an HTML page, which should contain all types of input elements
+------------------------------------------------------------------------ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <strong>Input types:</strong> <br>
+        <input type="button" value="This is a button type"> <br>
+        This is checkbox type ->
+        <input type="checkbox" name="" id=""> <br>
+        This is a color type ->
+        <input type="color"> <br>
+        This is a date type ->
+        <input type="date" name="" id=""> <br>
+        This is a datatime-local type ->
+        <input type="datetime-local" name="" id=""> <br>
+        This is a datetime type ->
+        <input type="datetime" name="" id=""><br>
+        This is an email type ->
+        <input type="email" name="" id=""> <br>
+        This is a file type ->
+        <input type="file" name="" id=""> <br>
+        This is a hidden type ->
+        <input type="hidden" name="" id=""> <br>
+        This is an image type ->
+        <input type="image" name="" id=""> <br>
+        This is a month type ->
+        <input type="month" name="" id=""> <br>
+        This is a number type ->
+        <input type="number" name="" id=""> <br>
+        This is a password type ->
+        <input type="password" name="" id=""> <br>
+        This is a radio type ->
+        <input type="radio" name="" id=""> <br>
+        This is a range type ->
+        <input type="range" name="" id=""> <br>
+        This is a reset type ->
+        <input type="reset" name="" id=""> <br>
+        This is a search type ->
+        <input type="search" name="" id=""> <br>
+        This is a submit type ->
+        <input type="submit" name="" id=""> <br>
+        This is a telephone type ->
+        <input type="tel" name="" id=""> <br>
+        This is a text type ->
+        <input type="text" name="" id=""> <br>
+        This is a time type ->
+        <input type="time" name="" id=""> <br>
+        This is a url type ->
+        <input type="url" name="" id=""> <br>
+        This is a week type ->
+        <input type="week" name="" id=""> <br>
+    </form>
+</body>
+
+</html>
